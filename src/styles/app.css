@@ -1,0 +1,109 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #007bff;
+  }
+  
+  h5 {
+    font-weight: 600;
+  }
+  
+  /* Flex container for book list */
+  .book-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Flex container for the list view */
+  .book-list-view {
+    display: block;
+    margin: 20px 0;
+  }
+  
+  .book-list-view .book-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-list-view .book-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Button styles for main app */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #00408d;
+  }
+  
+  /* Additional styling for input fields in search forms */
+  input[type="text"],
+  input[type="number"],
+  input[type="checkbox"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Style for the navbar */
+  
+
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar .navbar-brand {
+    color: #0a6096;
+    font-weight: bold;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: #0d4edb;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #ff8c00;
+  }
+  

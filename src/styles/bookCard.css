@@ -1,0 +1,163 @@
+.book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+     padding: 20px; 
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-card .book-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Ensures the image fits inside the card */
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .book-card .book-info {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .book-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .book-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .book-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+  }
+  
+  .book-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-card button:active {
+    background-color: #00408d;
+  }
+  
+  .book-card .favourite-btn {
+    background-color: #ff8c00;
+  }
+  
+  .book-card .favourite-btn:hover {
+    background-color: #e67600;
+  }
+  
+  .book-card .remove-btn {
+    background-color: #dc3545;
+  }
+  
+  .book-card .remove-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .book-card .edit-btn {
+    background-color: #28a745;
+  }
+  
+  .book-card .edit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .book-card .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .book-card .delete-btn:hover {
+    background-color: #c82333;
+  }
+  .badge {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .favourite-icon {
+    margin-top: 10px;
+  }
+  
+
+/* 
+.book-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .book-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-info {
+    margin-top: 10px;
+  }
+  
+  .book-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .favourite-btn, .remove-btn, .edit-btn, .delete-btn {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .favourite-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .remove-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .edit-btn {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+   */
